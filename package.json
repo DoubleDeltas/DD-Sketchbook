@@ -1,0 +1,13 @@
+{
+  "name": "dd-sketchbook",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#main",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "dd-sketchbook",
+  "title": "DD-Sketchbook",
+  "version": "0.0.1",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11",
+  "scripts": [
+    "dist/main.js"
+  ],
+  "styles": [
+    "styles/style.css"
+  ]
+}
