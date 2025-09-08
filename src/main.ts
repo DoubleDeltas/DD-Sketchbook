@@ -1,7 +1,7 @@
 // src/main.ts
 
 // 모듈 이름 상수 (module.json의 "name"과 동일해야 함)
-const MODULE_ID = "my-sketchbook";
+const MODULE_ID = "dd-sketchbook";
 
 // 초기화 단계: 모듈 세팅 등록 등
 Hooks.once("init", () => {
