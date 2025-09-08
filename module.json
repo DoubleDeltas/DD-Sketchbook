@@ -1,23 +1,20 @@
 {
-  "name": "dd-sketchbook",
+  "id": "dd-sketchbook",
   "title": "DD-Sketchbook",
   "description": "FVTT module for providing Sketchbooks, a modular, advanced micro-canvas.",
   "authors": [
     {
-      "id": "DoubleDeltas",
+      "name": "DoubleDeltas",
       "discord": "ddeltas",
       "email": "thesmartist3@gmail.com"
     }
   ],
   "version": "0.0.1",
-  "compatability": {
+  "compatibility": {
     "verified": "13.348"
   },
-  "scripts": [
+  "esmodules": [
     "dist/main.js"
-  ],
-  "styles": [
-    "styles/style.css"
   ],
   "url": "https://github.com/DoubleDeltas/DD-Sketchbook"
 }
