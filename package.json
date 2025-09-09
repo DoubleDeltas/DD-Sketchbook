@@ -2,14 +2,15 @@
   "name": "dd-sketchbook",
   "version": "0.0.1",
   "scripts": {
-    "build": "tsc",
-    "package": "tsc & node scripts/build.js",
-    "watch": "tsc -w"
+    "build": "vite build",
+    "package": "vite build & node scripts/build.js",
+    "watch": "vite build --watch"
   },
   "devDependencies": {
     "@types/node": "^24.3.1",
     "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#main",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
   },
   "dependencies": {
     "archiver": "^7.0.1"
